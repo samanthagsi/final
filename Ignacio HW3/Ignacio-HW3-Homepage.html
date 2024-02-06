@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Ignacio HW3 Fordham Homepage</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            font-family: 'Raleway', sans-serif;
+        }
+
+        .container {
+            display: flex;
+            height: 100%;
+        }
+
+        .side-nav {
+            color: black;
+            width: 25%;
+            padding: 20px;
+            border-right: solid lightgrey;
+        }
+
+        .top-nav {
+            color: black;
+            padding: 0px;
+            width: 100%;
+        }
+
+        .side-nav li {
+            color: black;
+            font-size: 14px;
+            padding: 10px;
+            border: 20px;
+            background-color: lightgray;
+            border-left: solid maroon;
+            list-style-type: none;
+        }
+
+        .top-nav li {
+            display: inline-block;
+        }
+
+        .content {
+            padding: 20px;
+            flex: 1;
+        }
+
+        /* Style links */
+        a {
+            color: black;
+            text-decoration: none;
+        }
+
+        /* Style links on hover */
+        a:hover {
+            text-decoration: underline;
+        }
+
+        /* Style heading */
+        h1 {
+            color: maroon;
+            font-size: 42px;
+            font-weight: lighter;
+            padding: 0px 10px 20px 20px;
+        }
+
+        h3 {
+            color: maroon
+        }
+
+        h4 {
+            font-size: 16px;
+            font-weight: normal;
+            margin: 30px
+        }
+
+        /* Style article */
+        .article {
+            padding: 20px;
+            margin: 20px;
+            font-size: 14px;
+        }
+
+        .article li {
+            list-style-type: none;
+        }
+
+        .article p {
+            margin: 30px;
+        }
+
+        img {
+            max-width: 200px;
+            max-height: 200px;
+            float: right;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="side-nav">
+            <h3>Majors & Minors</h3>
+            <ul>
+                <li><a href="#">What's your passion?</a></li>
+                <li><a href="#">Accelerated Degree Programs</a></li>
+            </ul>
+        </div>
+        <div class="content">
+            <div class="top-nav">
+                <ul>
+                    <li><a href="#">Home </a>/</li>
+                    <li><a href="#">Admissions and Aid </a>/</li>
+                    <li><a href="#">Undergraduate Admissions </a>/</li>
+                    <li><a href="#">Majors and Minors </a>/</li>
+                    <li><a href="#"> Computer Science</a></li>
+                </ul>
+            </div>
+            <adiv class="article">
+                <h1>Computer Science</h1>
+                <ul>
+                    <li>Degree Options: Major, Minor</li>
+                    <li>Locations: Lincoln Center, Rose Hill</li>
+                    <li>Visit the <a href="#">Computer and Information Science Department</a></li>
+                </ul>
+                <img src="image.jpg">
+                <h4>Wherever there's a computer, there's a skilled person developing, maintaining, hacking, advancing or simply using it. Be that person.</h4>
+                <p>It's difficult to imagine life without computers when they're so central to our information-driven global society. But it's not difficult to imagine the amazing pursuits you'll be prepared for with a degree in computer science from Fordham's department of Computer and Information Sciences.</p>
+                <p>The computer science major emphasizes science and technology, including software design and programming, computer architecture and functions, and the development of an ability to analyze and solve problems in using the computer as a tool.</p>
+                <p>Get inspired by the classes we offer. Programming. Bioinformatics. Robotics. Video game design. Cyber security. Networking. Database management. Health and medical informatics.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

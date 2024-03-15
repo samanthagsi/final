@@ -1,7 +1,0 @@
-1. What are some examples of how PHP and JavaScript are alike and how they differ?
-
-PHP and JS are both web scripting languages, but they work in different places. PHP runs on the server. It prepares data and builds web pages before sending them to the user's browser. Meanwhile, JS runs directly in the user's browser.
-
-2. Define MVC, what are the responsibilities of each piece?
-
-MVC (Model-View-Controller) is a design pattern for web applications that separates concerns. The Model manages data and logic, the View handles presentation, and the Controller reacts to user input, updates the Model, and instructs the View to update accordingly.

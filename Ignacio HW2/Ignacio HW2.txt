@@ -1,0 +1,15 @@
+1. Define structural vs semantic meaning in regard to HTML elements.
+
+	In HTML, structural meaning refers to how parts fit into the overall layout and structure of a webpage. It involves elements that define sections or parts inside the page structure. Semantic, on the other hand, is concerned with the function and significance of each of the sections. Semantic elements allow search engines and people to easily comprehend the structure and purpose of a webpage by providing specific meanings about the information they contain.
+
+2. Why is it important to use correct html elements when designing web pages?
+
+	It's important to use the right HTML elements for several reasons. It improves accessibility by offering a precise structure that assistive technology like screen readers can understand. Additionally, by indicating to search engine crawlers the significance and relevance of material, the right HTML elements enhance SEO. Thirdly, it makes code easier to understand and update since developers can more quickly recognize projects to develop. Finally, it provides a smooth user experience by guaranteeing uniformity in rendering across different browsers and devices.
+
+3. What are forms in html? What is their purpose? When would you use one?
+
+	HTML forms are interactive elements that allow users to enter data on a webpage. They include a variety of input components like text fields, checkboxes, and dropdown menus, allowing users to provide data to servers for processing. Forms are important for allowing users to participate, whether it's signing in, registering, searching, or giving feedback. They are a significant element of user experience design because they provide a way for users to interact with webpages.
+
+4. Define and contrast inline vs block elements.
+
+	HTML layout is fundamentally built around inline and block elements. Inline components just take up the space required for their content and do not begin on a new line. Block elements begin on a new line and fill the whole width of the contained element. While inline elements can coexist with text and other inline elements inside a line, block elements usually generate specific block-level structures. Block elements can also include block-level elements, while inline elements cannot.
